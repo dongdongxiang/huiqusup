@@ -1,0 +1,40 @@
+.header-social {
+	ul {
+		li {
+			a {
+				color: $white;
+				display: inline-block;
+				padding: 5px 10px;
+				margin: 0 2px 0 2px;
+				background-color: $primary;
+				border-radius: 50%;
+				&:hover {
+					background-color: $white;
+					color: $primary;
+				}
+			}
+			a.facebook {
+				padding: 5px 12px;
+			}
+			display: inline-block;
+		}
+	}
+}
+
+.social-links {
+	ul {
+		li {
+			display: inline-block;
+			a {
+				border: 1px solid $border-color;
+				color: $primary;
+				padding: 5px 15px;
+				font-size: 16px;
+				margin: 0 5px;
+				&:first-child {
+					margin-left: 0;
+				}
+			}
+		}
+	}
+}

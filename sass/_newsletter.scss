@@ -1,0 +1,11 @@
+.newslatter {
+	padding: 10px;
+	border-bottom: 1px solid #cccccc;
+	border-left: 1px solid #cccccc;
+	border-right: 1px solid #cccccc;
+	form {
+		input[type='submit'] {
+			cursor: pointer;
+		}
+	}
+}

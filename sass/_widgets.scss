@@ -1,0 +1,130 @@
+
+.widget-title {
+	text-transform: uppercase;
+	margin-bottom: 2rem;
+	h4 {
+		font-size: 1.1rem;
+	}
+}
+.footer-widget {
+	.about-text {
+		margin-bottom: 2rem;
+		p {
+			color: $white;
+		}
+	}
+	.widget-title {
+		color: $white;
+	}
+	.social-links {
+		ul {
+			li {
+				a {
+					border-color: $white;
+					color: $white;
+					&:hover {
+						background: #0154F8;
+						border-color: $primary;
+					}
+				}
+			}
+		}
+	}
+	.links {
+		ul {
+			li {
+				a {
+					color: $white;
+					padding: 5px 10px;
+					&:hover {
+						color: $primary;
+					}
+				}
+			}
+		}
+	}
+	.post-title {
+		h5 {
+			a {
+				color: $white;
+				font-size: 1rem;
+				margin-bottom: 10px;
+			}
+		}
+	}
+	.post-meta {
+		span {
+			color: $white;
+		}
+	}
+}
+
+.post-thumb {
+	a {
+		img {
+			width: 100%;
+			height: auto;
+		}
+	}
+}
+
+.recent-posts {
+	.post-item {
+		.post-title {
+			h5 {
+				a {
+					&:hover {
+						color: $primary;
+					}
+				}
+			}
+		}
+	}
+}
+.sidebar-widget {
+	.links {
+		ul {
+			li {
+				a {
+					&:hover {
+						color: $primary;
+					}
+					color: $dark;
+					padding: 5px 0;
+					display: block;
+					span {
+						float: right;
+					}
+				}
+			}
+		}
+		padding: 10px;
+		border-bottom: 1px solid #cccccc;
+		border-left: 1px solid #cccccc;
+		border-right: 1px solid #cccccc;
+	}
+	.recent-posts {
+		.post-item {
+			.post-title {
+				h5 {
+					a {
+						&:hover {
+							color: $primary;
+						}
+						color: $dark;
+					}
+				}
+			}
+		}
+		padding: 10px;
+		border-bottom: 1px solid #cccccc;
+		border-left: 1px solid #cccccc;
+		border-right: 1px solid #cccccc;
+	}
+	.widget-title {
+		background: #0154F8;
+		color: $white;
+		padding: 10px;
+		margin-bottom: 0;
+	}
+}

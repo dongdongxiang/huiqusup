@@ -1,0 +1,25 @@
+
+.icon-box-item {
+	border-radius: 5px;
+	transition: .3s;
+	.icon {
+		i {
+			display: inline-block;
+			padding: 20px;
+			border-radius: 50%;
+			font-size: 35px;
+		}
+	}
+	.icon-head {
+		h4 {
+			font-size: 1.3rem;
+		}
+	}
+	&:hover {
+		-moz-transform: translate(0px, -10px);
+		-webkit-transform: translate(0px, -10px);
+		-o-transform: translate(0px, -10px);
+		-ms-transform: translate(0px, -10px);
+		transform: translate(0px, -10px);
+	}
+}

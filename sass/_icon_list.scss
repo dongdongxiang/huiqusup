@@ -1,0 +1,39 @@
+
+.icon-list-item {
+	padding: 40px 10px;
+	transition: .3s;
+	border-color: $border-color !important;
+	&:hover {
+		background-color: $primary;
+		border-color: $primary !important;
+		-webkit-box-shadow: 0px 0px 10px 2px rgba(1,84,248,1);
+		-moz-box-shadow: 0px 0px 10px 2px rgba(1,84,248,1);
+		box-shadow: 0px 0px 10px 2px rgba(1,84,248,1);
+		.list-item-head {
+			h5 {
+				color: $white;
+			}
+		}
+		.list-item-icon {
+			i {
+				color: $white;
+			}
+		}
+	}
+}
+.list-item-icon {
+	i {
+		display: inline-block;
+		font-size: 4em;
+		transition: .3s;
+		color: $primary;
+	}
+}
+.list-item-head {
+	h5 {
+		font-size: 17px;
+		font-weight: 600;
+		margin-top: 15px;
+		transition: .3s;
+	}
+}

@@ -1,0 +1,13 @@
+.calltoaction {
+	background: url('images/calltoaction.png');
+	background-size: 100%;
+}
+.calltoaction.bg-overlay {
+	&:after {
+		background: #0154F8;
+		opacity: .8;
+	}
+}
+.calltoaction-btn {
+	margin-top: 2rem;
+}

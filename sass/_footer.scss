@@ -1,0 +1,28 @@
+footer {
+	.footer-area {
+		background: #101e3b;
+		overflow: hidden;
+	}
+	.sec-space {
+		padding-bottom: 0;
+	}
+}
+
+.scrolltop {
+	position: relative;
+	overflow: hidden;
+	min-height: 44px;
+	hr {
+		border-color: $white;
+	}
+	a {
+		text-decoration: none;
+		color: $white;
+		background: #0154F8;
+		padding: 10px 15px;
+		border-radius: 50%;
+		display: inline-block;
+		position: absolute;
+		top: 0;
+	}
+}

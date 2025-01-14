@@ -1,0 +1,20 @@
+
+.comment-list {
+	.media {
+        display: flex;
+		img {
+			width: 75px;
+			height: 75px;
+			border-radius: 50%;
+			border: 1px solid $border-color;
+			padding: 3px;
+		}
+		.media-body {
+			h5 {
+				font-size: 1rem;
+				text-transform: uppercase;
+				margin: .8rem 0;
+			}
+		}
+	}
+}
